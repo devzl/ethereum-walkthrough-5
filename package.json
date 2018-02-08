@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/devzl/ethereum-walkthrough-5/issues"
   },
-  "homepage": "https://github.com/devzl/ethereum-walkthrough-5#readme"
+  "homepage": "https://github.com/devzl/ethereum-walkthrough-5#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
